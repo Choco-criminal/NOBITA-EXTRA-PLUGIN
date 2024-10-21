@@ -9,7 +9,7 @@ from pyrogram import enums, filters
 
 from VIPMUSIC import app
 
-# Define a dictionary to track the last message timestamp for each user
+# Define  a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
 user_command_count = {}
 # Define the threshold for command spamming (e.g., 20 commands within 60 seconds)
@@ -17,11 +17,11 @@ SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://graph.org/file/d506a077ca2c4a3aa2ea3-4a29f664707d190a76.jpg",
+    "https://graph.org/vTelegraphBot-10-21-13",
+    "https://graph.org/file/4e4c15823f0056c0756c8-1230cfcb94e69c070c.jpg",
+    "https://graph.org/file/361fba6c14ddc6d503c05-9ad49c42506364ac90.jpg",
+    "https://graph.org/file/9f55b32d58ff4d02efae7-73a3aee6a6c54c3061.jpg",
 ]
 
 # --------------------------------------------------------------------------------- #
