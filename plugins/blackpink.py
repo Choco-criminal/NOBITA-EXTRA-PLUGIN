@@ -24,8 +24,9 @@ async def chatgpt_chat(client, message):
 
 from pyrogram import Client, filters
 import requests
-
+"""
  #The bot token and API key should be securely handled (store them in environment variables or a config file)
+
 
 API_URL = "https://api.openai.com/v1/images/generations"  # Replace with the correct endpoint
 API_KEY = "your_openai_api_key"  # Replace with your actual API key
